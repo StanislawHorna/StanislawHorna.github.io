@@ -91,6 +91,7 @@ During my daily work I cover following areas:
 ### Engineer's degree, Information Technology - Software engineering
 
 [_Lodz University of Technology_](https://www.linkedin.com/school/politechnika-lodzka/)
+
 _2021 - 2025_
 
 - 2024/2025 - Scholarship from the Rector of the Lodz University of Technology
@@ -99,6 +100,7 @@ _2021 - 2025_
 ### ICT Technician
 
 _Jan Szczepanik’s Technical School No. 10 in Lodz_
+
 _2017 - 2021_
 
 - European Union scholarship "Professionals in the Lodz province" -

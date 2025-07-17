@@ -86,7 +86,7 @@ During my daily work I cover following areas:
 - Virtualization solutions design, configuration and management mainly based on Microsoft Hyper-V
 - Device monitoring and remote access design, configuration and management
 
-## [Edu]{.char-color}cation
+## [Education]{.char-color}
 
 ### Engineer's degree, Information Technology - Software engineering
 

@@ -58,7 +58,7 @@ Site Reliability Engineer\\[1.5em]
 \includegraphics[width=3.5em]{assets/logo/Tempo.png}<img src="assets/logo/Tempo.png" style="width:45px">
 \includegraphics[width=3.5em]{assets/logo/Prometheus.png}<img src="assets/logo/Prometheus.png" style="width:45px">
 \includegraphics[width=3.5em]{assets/logo/OpenTelemetry.png}<img src="assets/logo/OpenTelemetry.png" style="width:45px">
-\includegraphics[width=3.5em]{assets/logo/Github_Actions.png}<img src="assets/logo/Github_Actions.png" style="width:45px">
+\includegraphics[width=3.5em]{assets/logo/Github_Actions.png}<img src="assets/logo/GitHub_Actions.png" style="width:45px">
 
 </div>
 

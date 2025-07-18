@@ -1,28 +1,91 @@
-# Stanisław Horna
+::: {.content-visible when-format="html"}
+::: {.grid}
+::: {.g-col-8}
+
+# **Stanisław Horna**
 
 Site Reliability Engineer
-| [stanislawhorna@outlook.com](mailto:stanislawhorna@outlook.com)
+
+| {{< fa solid envelope >}} [stanislawhorna@outlook.com](mailto:stanislawhorna@outlook.com)
+
 | {{< fa brands github >}} [GitHub](https://github.com/StanislawHorna)
+
 | {{< fa brands linkedin >}} [LinkedIn](https://linkedin.com/in/stanislawhorna/)
+:::
+::: {.content-visible when-format="html"}
+::: {.g-col-3}
+![](/assets/photo.png){ width=200px align=right }
+:::
+:::
+
+:::
+:::
+
+::: {.content-visible when-format="pdf"}
+\noindent
+\begin{minipage}[c]{0.68\textwidth}
+\raggedright
+{\huge\bfseries Stanisław Horna}\\[0.6em]
+Site Reliability Engineer\\[1.5em]
+\faEnvelope\ \href{mailto:stanislawhorna@outlook.com}{stanislawhorna@outlook.com}\\[0.7em]
+\faGithub\ \href{https://github.com/StanislawHorna}{GitHub}\\[0.7em]
+\faLinkedin\ \href{https://linkedin.com/in/stanislawhorna/}{LinkedIn}
+\end{minipage}
+\hspace*{\fill}
+\begin{minipage}[c]{0.28\textwidth}
+\vspace*{2.5em} % ← tweak this to vertically center the photo
+\begin{flushright}
+\includegraphics[width=4.5cm]{assets/photo.png}
+\end{flushright}
+\end{minipage}
+:::
+
+## Tools & Technologies
+
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px;">
+
+![](assets/logo/python.png){ width=45px }
+![](assets/logo/powershell_Windows.png){ width=45px }
+![](assets/logo/Go.png){ width=45px }
+![](assets/logo/Terraform.png){ width=45px }
+![](assets/logo/bash.png){ width=45px }
+![](assets/logo/Vault.png){ width=45px }
+![](assets/logo/postgresql.png){ width=45px }
+![](assets/logo/docker.png){ width=45px }
+![](assets/logo/K8s.png){ width=45px }
+![](assets/logo/grafana.png){ width=45px }
+![](assets/logo/loki.png){ width=45px }
+![](assets/logo/tempo.png){ width=45px }
+![](assets/logo/prometheus.png){ width=45px }
+![](assets/logo/opentelemetry.png){ width=45px }
+![](assets/logo/github_actions.png){ width=45px }
+
+</div>
 
 ## About [me]{.char-color}
 
 Site Reliability Engineer with 5+ years of experience in IT industry.
 I really enjoy creating an application that solves problems I am struggling with,
 so every project I build has its purpose.
+I am passionate **tech enthusiast** and **developer** building, experimenting, and learning
+through hands-on home lab setups and cutting-edge technology projects.
 
 ## [Work]{.char-color} Experience
 
 ::: {.d-flex .justify-content-between .flex-wrap}
 
-### Site Reliability Engineer, [NordSecurity](https://www.linkedin.com/company/nordsecurity/)
+### Site Reliability Engineer \includegraphics[height=1em]{assets/company/Nord_Security.png} <img src="assets/company/Nord_Security.png" alt="NordSecurity Logo" style="height:1.5em; vertical-align:middle;"> [NordSecurity](https://www.linkedin.com/company/nordsecurity/)
 
 _July 2025 - Present_
 :::
 
+I help build and maintain scalable internal systems that empower data analysts, engineers, and scientists.
+My focus is on automation, performance, observability, and reliability
+to support one of the world’s leading cybersecurity products.
+
 ::: {.d-flex .justify-content-between .flex-wrap}
 
-### Site Reliability Engineer, [Relativity](https://www.linkedin.com/company/relativityhq/)
+### Site Reliability Engineer \includegraphics[height=1em]{assets/company/Relativity.png} <img src="assets/company/Relativity.png" alt="Relativity Logo" style="height:1.5em; vertical-align:middle;"> [Relativity](https://www.linkedin.com/company/relativityhq/)
 
 _December 2023 - June 2025_
 :::
@@ -40,7 +103,7 @@ As a result I have implemented Selenium test versioning and the ability to easil
 
 ::: {.d-flex .justify-content-between .flex-wrap}
 
-### Operations Specialist, [Bosch](https://www.linkedin.com/company/bosch/)
+### Operations Specialist \includegraphics[height=1em]{assets/company/Bosch.png} <img src="assets/company/Bosch.png" alt="Bosch Logo" style="height:1.5em; vertical-align:middle;"> [Bosch](https://www.linkedin.com/company/bosch/)
 
 _August 2023 - November 2023_
 :::
@@ -53,7 +116,7 @@ about captured issues or coming manual duties.
 
 ::: {.d-flex .justify-content-between .flex-wrap}
 
-### Technical Engineer, [Atos](https://www.linkedin.com/company/atos/)
+### Technical Engineer \includegraphics[height=1em]{assets/company/Atos.png} <img src="assets/company/Atos.png" alt="Atos Logo" style="height:1.5em; vertical-align:middle;"> [Atos](https://www.linkedin.com/company/atos/)
 
 _July 2021 - July 2023_
 :::
@@ -85,6 +148,34 @@ During my daily work I cover following areas:
 - Storage and backup solutions design, configuration and management
 - Virtualization solutions design, configuration and management mainly based on Microsoft Hyper-V
 - Device monitoring and remote access design, configuration and management
+
+## [Projects]{.char-color}
+
+### [**HornaHomeLab**](https://github.com/HornaHomeLab) - GitHub Organization
+
+It's Github organization dedicated mostly for Infrastructure as a Code and automations,
+that I'm running in my Lab environment.
+
+- **HomeLab Setup & Networking**: Automating home networks, routers, firewalls, and servers.
+- **Virtualization & Containers**: Building and managing virtual machines and container environments like Docker.
+- **On-Premise Infrastructure & Automation**: Leveraging self hosted platforms and deploying infrastructure as code.
+- **DevOps & CI/CD Pipelines**: Automating software development lifecycle with continuous integration and delivery.
+- **Observability & Monitoring**: Developing custom Prometheus exporters, enhancing observability across infrastructures.
+
+### [**Github Statistics**](https://github.com/StanislawHorna/GitHub_Statistics)
+
+**GitHub Action** based automation leveraging **Python**'s matplotlib library to generate Language statistics
+for GitHub user authenticated with provided token.
+Supports both Light and Dark Github themes, great for extending
+
+### [**Investment**](https://github.com/StanislawHorna/Investment)
+
+The Investment project is a **Python** based, **containerized** tool
+designed to automate and streamline the management and analysis of investment portfolios.
+At its core, the project provides robust functionality for handling investment configurations and updating fund quotations,
+ensuring that financial data is consistently up-to-date and accurate.
+Users can quickly configure investments, retrieve and update quotations, and visualize the results on Grafana dashboards.
+One application instance can handle many investment owners with multiple investment wallets for each owner.
 
 ## [Education]{.char-color}
 

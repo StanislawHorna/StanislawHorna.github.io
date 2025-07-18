@@ -1,5 +1,3 @@
-profile:
-  default: development
 project:
   type: website
   pre-render:
@@ -8,14 +6,7 @@ project:
     - ./post-render.py
   render:
     - "RESUME.md"
-website:
-  page-footer:
-    border: true
-    background: dark
-    center: 
-      - text: "<b>Download PDF</b>"
-        href: /index.pdf
-format-links: false
+
 format:
   html:
     theme:
@@ -24,15 +15,32 @@ format:
     css: styles.css
     link-external-newwindow: true
     canonical-url: true
+
   pdf:
-      documentclass: article
-      papersize: a4
-      fontsize: 10pt
-      latex-auto-install: true
-      include-in-header: 
-        - "pdf.KOMA.tex"
+    output-file: StanislawHornaResume.pdf
+    documentclass: scrartcl # KOMA class
+    papersize: a4
+    fontsize: 11pt
+    classoption: [parskip=half]
+    mainfont: Helvetica
+    monofont: Courier
+    linkcolor: blue
+    colorlinks: true
+    include-in-header:
+      - pdf.KOMA.tex
+    header-includes: |
+      \usepackage{fontawesome5}
+
+
+website:
+  page-footer:
+    border: true
+    background: dark
+    center:
+      - text: "<b>Download PDF</b>"
+        href: /StanislawHornaResume.pdf
+
+format-links: false
+
 resources:
   - CNAME
-
-
-

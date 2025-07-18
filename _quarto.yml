@@ -24,7 +24,13 @@ format:
     css: styles.css
     link-external-newwindow: true
     canonical-url: true
-  pdf: default
+  pdf:
+      documentclass: article
+      papersize: a4
+      fontsize: 10pt
+      latex-auto-install: true
+      include-in-header: 
+        - "pdf.KOMA.tex"
 resources:
   - CNAME
 

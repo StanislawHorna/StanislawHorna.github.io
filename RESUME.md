@@ -44,21 +44,21 @@ Site Reliability Engineer\\[1.5em]
 
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px;">
 
-\includegraphics[width=3.5em]{assets/logo/python.png}<img src="assets/logo/python.png" style="width:45px">
-\includegraphics[width=3.5em]{assets/logo/powershell_Windows.png}<img src="assets/logo/powershell_Windows.png" style="width:45px">
+\includegraphics[width=3.5em]{assets/logo/python.png}<img src="assets/logo/Python.png" style="width:45px">
+\includegraphics[width=3.5em]{assets/logo/pPowershell_Windows.png}<img src="assets/logo/Powershell_Windows.png" style="width:45px">
 \includegraphics[width=3.5em]{assets/logo/Go.png}<img src="assets/logo/Go.png" style="width:45px">
 \includegraphics[width=3.5em]{assets/logo/Terraform.png}<img src="assets/logo/Terraform.png" style="width:45px">
-\includegraphics[width=3.5em]{assets/logo/bash.png}<img src="assets/logo/bash.png" style="width:45px">
+\includegraphics[width=3.5em]{assets/logo/Bash.png}<img src="assets/logo/Bash.png" style="width:45px">
 \includegraphics[width=3.5em]{assets/logo/Vault.png}<img src="assets/logo/Vault.png" style="width:45px">
-\includegraphics[width=3.5em]{assets/logo/postgresql.png}<img src="assets/logo/postgresql.png" style="width:45px">
-\includegraphics[width=3.5em]{assets/logo/docker.png}<img src="assets/logo/docker.png" style="width:45px">
+\includegraphics[width=3.5em]{assets/logo/PostgreSQL.png}<img src="assets/logo/PostgreSQL.png" style="width:45px">
+\includegraphics[width=3.5em]{assets/logo/Docker.png}<img src="assets/logo/Docker.png" style="width:45px">
 \includegraphics[width=3.5em]{assets/logo/K8s.png}<img src="assets/logo/K8s.png" style="width:45px">
-\includegraphics[width=3.5em]{assets/logo/grafana.png}<img src="assets/logo/grafana.png" style="width:45px">
-\includegraphics[width=3.5em]{assets/logo/loki.png}<img src="assets/logo/loki.png" style="width:45px">
-\includegraphics[width=3.5em]{assets/logo/tempo.png}<img src="assets/logo/tempo.png" style="width:45px">
-\includegraphics[width=3.5em]{assets/logo/prometheus.png}<img src="assets/logo/prometheus.png" style="width:45px">
-\includegraphics[width=3.5em]{assets/logo/opentelemetry.png}<img src="assets/logo/opentelemetry.png" style="width:45px">
-\includegraphics[width=3.5em]{assets/logo/github_actions.png}<img src="assets/logo/github_actions.png" style="width:45px">
+\includegraphics[width=3.5em]{assets/logo/Grafana.png}<img src="assets/logo/Grafana.png" style="width:45px">
+\includegraphics[width=3.5em]{assets/logo/Loki.png}<img src="assets/logo/Loki.png" style="width:45px">
+\includegraphics[width=3.5em]{assets/logo/Tempo.png}<img src="assets/logo/Tempo.png" style="width:45px">
+\includegraphics[width=3.5em]{assets/logo/Prometheus.png}<img src="assets/logo/Prometheus.png" style="width:45px">
+\includegraphics[width=3.5em]{assets/logo/OpenTelemetry.png}<img src="assets/logo/OpenTelemetry.png" style="width:45px">
+\includegraphics[width=3.5em]{assets/logo/Github_Actions.png}<img src="assets/logo/Github_Actions.png" style="width:45px">
 
 </div>
 

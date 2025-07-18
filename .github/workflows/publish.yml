@@ -35,13 +35,18 @@ jobs:
           git push origin $TEMP_BRANCH:$ORIGIN_BRANCH --force
           git checkout $CURRENT_BRANCH
 
+      - name: Install fonts
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y texlive-fonts-recommended
+
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with: 
-          tinytex: true 
-      
+        with:
+          tinytex: true
+
       - name: Install Python packages
         run: pip install -r requirements.txt
 

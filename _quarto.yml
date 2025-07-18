@@ -22,7 +22,7 @@ format:
     papersize: a4
     fontsize: 11pt
     classoption: [parskip=half]
-    mainfont: Helvetica
+    mainfont: TeX Gyre Heros
     monofont: Courier
     linkcolor: blue
     colorlinks: true

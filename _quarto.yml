@@ -44,3 +44,4 @@ format-links: false
 
 resources:
   - CNAME
+  - assets/**

@@ -45,7 +45,7 @@ Site Reliability Engineer\\[1.5em]
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px;">
 
 \includegraphics[width=3.5em]{assets/logo/python.png}<img src="assets/logo/Python.png" style="width:45px">
-\includegraphics[width=3.5em]{assets/logo/pPowershell_Windows.png}<img src="assets/logo/Powershell_Windows.png" style="width:45px">
+\includegraphics[width=3.5em]{assets/logo/Powershell_Windows.png}<img src="assets/logo/Powershell_Windows.png" style="width:45px">
 \includegraphics[width=3.5em]{assets/logo/Go.png}<img src="assets/logo/Go.png" style="width:45px">
 \includegraphics[width=3.5em]{assets/logo/Terraform.png}<img src="assets/logo/Terraform.png" style="width:45px">
 \includegraphics[width=3.5em]{assets/logo/Bash.png}<img src="assets/logo/Bash.png" style="width:45px">

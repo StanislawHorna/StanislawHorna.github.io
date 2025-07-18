@@ -44,21 +44,21 @@ Site Reliability Engineer\\[1.5em]
 
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px;">
 
-![](assets/logo/python.png){ width=45px }
-![](assets/logo/powershell_Windows.png){ width=45px }
-![](assets/logo/Go.png){ width=45px }
-![](assets/logo/Terraform.png){ width=45px }
-![](assets/logo/bash.png){ width=45px }
-![](assets/logo/Vault.png){ width=45px }
-![](assets/logo/postgresql.png){ width=45px }
-![](assets/logo/docker.png){ width=45px }
-![](assets/logo/K8s.png){ width=45px }
-![](assets/logo/grafana.png){ width=45px }
-![](assets/logo/loki.png){ width=45px }
-![](assets/logo/tempo.png){ width=45px }
-![](assets/logo/prometheus.png){ width=45px }
-![](assets/logo/opentelemetry.png){ width=45px }
-![](assets/logo/github_actions.png){ width=45px }
+\includegraphics[width=3.5em]{assets/logo/python.png}<img src="assets/logo/python.png" style="width:45px">
+\includegraphics[width=3.5em]{assets/logo/powershell_Windows.png}<img src="assets/logo/powershell_Windows.png" style="width:45px">
+\includegraphics[width=3.5em]{assets/logo/Go.png}<img src="assets/logo/Go.png" style="width:45px">
+\includegraphics[width=3.5em]{assets/logo/Terraform.png}<img src="assets/logo/Terraform.png" style="width:45px">
+\includegraphics[width=3.5em]{assets/logo/bash.png}<img src="assets/logo/bash.png" style="width:45px">
+\includegraphics[width=3.5em]{assets/logo/Vault.png}<img src="assets/logo/Vault.png" style="width:45px">
+\includegraphics[width=3.5em]{assets/logo/postgresql.png}<img src="assets/logo/postgresql.png" style="width:45px">
+\includegraphics[width=3.5em]{assets/logo/docker.png}<img src="assets/logo/docker.png" style="width:45px">
+\includegraphics[width=3.5em]{assets/logo/K8s.png}<img src="assets/logo/K8s.png" style="width:45px">
+\includegraphics[width=3.5em]{assets/logo/grafana.png}<img src="assets/logo/grafana.png" style="width:45px">
+\includegraphics[width=3.5em]{assets/logo/loki.png}<img src="assets/logo/loki.png" style="width:45px">
+\includegraphics[width=3.5em]{assets/logo/tempo.png}<img src="assets/logo/tempo.png" style="width:45px">
+\includegraphics[width=3.5em]{assets/logo/prometheus.png}<img src="assets/logo/prometheus.png" style="width:45px">
+\includegraphics[width=3.5em]{assets/logo/opentelemetry.png}<img src="assets/logo/opentelemetry.png" style="width:45px">
+\includegraphics[width=3.5em]{assets/logo/github_actions.png}<img src="assets/logo/github_actions.png" style="width:45px">
 
 </div>
 

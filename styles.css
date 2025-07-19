@@ -1,0 +1,27 @@
+.nav-footer-center {
+    margin: 0;
+}
+
+main {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.nav-footer-left, .nav-footer-right {
+    display: none;
+}
+
+@media print { 
+    .no-print, .no-print *, footer, footer *, header, header * {
+        display: none !important;
+    }
+}
+
+/* OTHER STYLES */
+h1 > .char-color, h2 > .char-color {
+    color: var(--bs-blue);
+}
+
+h3 > .char-color {
+    color: var(--bs-warning);
+}

@@ -116,5 +116,5 @@ def pre_render():
 
 
 if __name__ == "__main__":
-    # prepare_assets()
+    prepare_assets()
     pre_render()

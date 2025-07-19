@@ -33,6 +33,7 @@ format:
 
 
 website:
+  title: "Stanisław Horna"
   page-footer:
     border: true
     background: dark

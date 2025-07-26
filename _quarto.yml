@@ -1,0 +1,48 @@
+project:
+  type: website
+  pre-render:
+    - ./pre-render.py
+  post-render:
+    - ./post-render.py
+  render:
+    - "RESUME.md"
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    css: styles.css
+    link-external-newwindow: true
+    canonical-url: true
+
+  pdf:
+    output-file: StanislawHornaResume.pdf
+    documentclass: scrartcl # KOMA class
+    papersize: a4
+    fontsize: 11pt
+    classoption: [parskip=half]
+    mainfont: TeX Gyre Heros
+    monofont: Courier
+    linkcolor: blue
+    colorlinks: true
+    include-in-header:
+      - pdf.KOMA.tex
+    header-includes: |
+      \usepackage{fontawesome5}
+
+
+website:
+  title: "Stanisław Horna"
+  page-footer:
+    border: true
+    background: dark
+    center:
+      - text: "<b>Download PDF</b>"
+        href: /StanislawHornaResume.pdf
+
+format-links: false
+
+resources:
+  - CNAME
+  - assets/**

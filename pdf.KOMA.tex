@@ -1,0 +1,21 @@
+% Enable hyperlinks
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=true,
+  urlcolor=blue,
+  linkcolor=blue
+}
+
+% Improve paragraph spacing
+\usepackage{parskip}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt}
+
+% Define cleaner bullet style
+\renewcommand{\labelitemi}{--}
+% 66 126 220
+
+\usepackage{xcolor}
+\definecolor{sectionblue}{rgb}{0.25, 0.49, 0.86}
+\addtokomafont{section}{\color{sectionblue}\bfseries\huge}
+\addtokomafont{subsection}{\color{sectionblue}\bfseries\LARGE}

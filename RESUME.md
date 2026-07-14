@@ -65,7 +65,7 @@ Site Reliability Engineer\\[1.5em]
 ## About [me]{.char-color}
 
 Site Reliability Engineer with 5+ years of experience in IT industry.
-I really enjoy creating an application that solves problems I am struggling with,
+I enjoy developing applications that solve problems I am struggling with,
 so every project I build has its purpose.
 I am passionate **tech enthusiast** and **developer** building, experimenting, and learning
 through hands-on home lab setups and cutting-edge technology projects.
@@ -79,9 +79,19 @@ through hands-on home lab setups and cutting-edge technology projects.
 _July 2025 - Present_
 :::
 
-I help build and maintain scalable internal systems that empower data analysts, engineers, and scientists.
-My focus is on automation, performance, observability, and reliability
-to support one of the world’s leading cybersecurity products.
+I co-own and maintain the end-to-end ETL analytics and visualization platform that powers data ingestion for NordVPN app events.
+My role involves fully managing the infrastructure lifecycle on Hetzner bare-metal and cloud instances—from OS deployment to service configuration — mostly using Ansible.
+I ensure the high availability and performance of a massive data ecosystem, including a self-managed Kafka cluster,
+the underlying Apache Spark compute platform, MinIO for S3-compatible storage, Airflow, Tableau, and Docker Swarm.
+Additionally, I maintain our core networking and observability stack, managing custom DNS, HAProxy load balancers, Zabbix, Prometheus, and Grafana.
+
+I specialize in empowering internal developer teams through self-serve infrastructure based on OpenSearch.
+I have led the deployment of Kafka Connect to stream data directly from Kafka into a newly provisioned OpenSearch cluster,
+eliminating analytical bottlenecks for developers.
+To manage this growing ecosystem, I developed a Python-based container application that automates OpenSearch storage lifecycle management.
+Leveraging a GitOps approach via GitLab CI/CD and AWX, this tool allows developer teams to define index storage quotas dynamically.
+As a result, I have implemented a system that validates capacity allocations during the Merge Request pipeline
+and executes scheduled pruning operations to enforce cluster limits, ensuring reliable multi-tenant capacity management.
 
 ::: {.d-flex .justify-content-between .flex-wrap}
 
@@ -151,6 +161,29 @@ During my daily work I cover following areas:
 
 ## [Projects]{.char-color}
 
+### [**Omada Exporter**](https://github.com/StanislawHorna/omada-exporter-go)
+
+Custom Prometheus exporter in Go to provide real-time observability for TP-Link Omada SDN infrastructure.
+Engineered the application to dynamically scrape metrics via Omada’s OpenAPI and Web API, optimized for on-demand performance.
+Designed complementary Grafana dashboards to visualize critical network health data,
+including router, switch, and access point performance metrics.
+
+### [**Helm Charts**](https://github.com/StanislawHorna/helm-charts)
+
+Custom Helm charts optimized exclusively for single-node Kubernetes environments.
+Engineered to eliminate heavy multi-node replication overhead, maximizing resource efficiency and performance on standalone nodes.
+Preserves production-grade configurations, security practices, and storage patterns for stateful applications like CloudNativePG,
+fully integrated with GitOps automation.
+
+### [**Investment**](https://github.com/StanislawHorna/Investment)
+
+The Investment project is a **Python** based, **containerized** tool
+designed to automate and streamline the management and analysis of investment portfolios.
+At its core, the project provides robust functionality for handling investment configurations and updating fund quotations,
+ensuring that financial data is consistently up-to-date and accurate.
+Users can quickly configure investments, retrieve and update quotations, and visualize the results on Grafana dashboards.
+One application instance can handle many investment owners with multiple investment wallets for each owner.
+
 ### [**HornaHomeLab**](https://github.com/HornaHomeLab) - GitHub Organization
 
 It's Github organization dedicated mostly for Infrastructure as a Code and automations,
@@ -161,21 +194,6 @@ that I'm running in my Lab environment.
 - **On-Premise Infrastructure & Automation**: Leveraging self hosted platforms and deploying infrastructure as code.
 - **DevOps & CI/CD Pipelines**: Automating software development lifecycle with continuous integration and delivery.
 - **Observability & Monitoring**: Developing custom Prometheus exporters, enhancing observability across infrastructures.
-
-### [**Github Statistics**](https://github.com/StanislawHorna/GitHub_Statistics)
-
-**GitHub Action** based automation leveraging **Python**'s matplotlib library to generate Language statistics
-for GitHub user authenticated with provided token.
-Supports both Light and Dark Github themes, great for extending
-
-### [**Investment**](https://github.com/StanislawHorna/Investment)
-
-The Investment project is a **Python** based, **containerized** tool
-designed to automate and streamline the management and analysis of investment portfolios.
-At its core, the project provides robust functionality for handling investment configurations and updating fund quotations,
-ensuring that financial data is consistently up-to-date and accurate.
-Users can quickly configure investments, retrieve and update quotations, and visualize the results on Grafana dashboards.
-One application instance can handle many investment owners with multiple investment wallets for each owner.
 
 ## [Education]{.char-color}
 

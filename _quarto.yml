@@ -23,7 +23,7 @@ format:
     fontsize: 11pt
     classoption: [parskip=half]
     mainfont: TeX Gyre Heros
-    monofont: Courier
+    monofont: TeX Gyre Cursor
     linkcolor: blue
     colorlinks: true
     include-in-header:

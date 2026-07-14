@@ -79,19 +79,17 @@ through hands-on home lab setups and cutting-edge technology projects.
 _July 2025 - Present_
 :::
 
-I co-own and maintain the end-to-end ETL analytics and visualization platform that powers data ingestion for NordVPN app events.
-My role involves fully managing the infrastructure lifecycle on Hetzner bare-metal and cloud instances—from OS deployment to service configuration — mostly using Ansible.
-I ensure the high availability and performance of a massive data ecosystem, including a self-managed Kafka cluster,
-the underlying Apache Spark compute platform, MinIO for S3-compatible storage, Airflow, Tableau, and Docker Swarm.
-Additionally, I maintain our core networking and observability stack, managing custom DNS, HAProxy load balancers, Zabbix, Prometheus, and Grafana.
+As co-owner of the end-to-end ETL analytics and visualization platform for application events,
+I manage the full-lifecycle infrastructure on Hetzner bare-metal and cloud instances using Ansible.
+I ensure the high availability and performance of a massive data ecosystem that includes self-managed Kafka,
+Apache Spark, MinIO, Airflow, Tableau, and Docker Swarm. Additionally, I maintain our core networking, load balancing,
+and observability stack leveraging HAProxy, custom DNS, Zabbix, Prometheus, and Grafana to guarantee system reliability.
 
-I specialize in empowering internal developer teams through self-serve infrastructure based on OpenSearch.
-I have led the deployment of Kafka Connect to stream data directly from Kafka into a newly provisioned OpenSearch cluster,
-eliminating analytical bottlenecks for developers.
-To manage this growing ecosystem, I developed a Python-based container application that automates OpenSearch storage lifecycle management.
-Leveraging a GitOps approach via GitLab CI/CD and AWX, this tool allows developer teams to define index storage quotas dynamically.
-As a result, I have implemented a system that validates capacity allocations during the Merge Request pipeline
-and executes scheduled pruning operations to enforce cluster limits, ensuring reliable multi-tenant capacity management.
+I specialize self-service infrastructure, leading the deployment of Kafka Connect to stream data directly into OpenSearch
+and eliminate analytical bottlenecks for developer teams. To manage this growing environment,
+I developed a Python-based container application that automates OpenSearch storage lifecycle management.
+Using a GitOps approach via GitLab CI/CD and AWX, this tool empowers developers to dynamically define index storage quotas,
+validating capacity allocations during Merge Request pipelines and running scheduled pruning to enforce multi-tenant cluster limits.
 
 ::: {.d-flex .justify-content-between .flex-wrap}
 
